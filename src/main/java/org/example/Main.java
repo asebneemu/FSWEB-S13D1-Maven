@@ -10,7 +10,7 @@ public class Main {
         if (clock<0 || clock>23) {
             return false;
         }
-        if (isBarking &&  (clock<=8 || clock>=20)) {
+        if (isBarking &&  (clock<8 || clock>20)) {
             return true;
         }
         return false;
